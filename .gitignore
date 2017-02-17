@@ -1,0 +1,7 @@
+# Package management
+vendor/
+composer.lock
+
+# Debris
+[Tt]humbs.db
+.DS_Store

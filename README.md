@@ -1,5 +1,32 @@
 # Nexiyo
-Nexiyo is my experiment at building a small framework so I could learn more about the individual components.
+Nexiyo is my experiment at building a small framework so I could learn more about the individual components. Now it's in a usable state, I thought I'd release it, as a tool for others to learn or even use in small sites.
+
+## Features
+### Current
+ - Full MVC functionality using as few packages as possible
+ - Supports Dotenv for environment credentials
+ - Built on Flight (router/microframework) - http://flightphp.com/learn/
+ - Uses illuminate/database for connections - https://laravel.com/docs/5.1/database#configuration
+ - Eloquent models - http://laravel.com/docs/5.1/eloquent
+ - Twig templating engine - http://twig.sensiolabs.org/doc/1.x/
+
+### To do (hopefully)
+ - Improve error handling in core
+ - Migrate Twig to 2.0
+ - Provide defaults for dotenv when unset
+ - Add DB migration capabilities
+
+## Installing
+### Requirements
+ - PHP 5.6 or above (7.x series highly recommended)
+ - Either Apache with **mod_rewrite** or Nginx
+ - MySQL or MariaDB (other databases theoretically supported however I haven't dealt with them)
+
+### Install
+For full install details, see the parent project **lxqueen/nexiyo**.
+
+## Usage
+For full usage details, see the parent project **lxqueen/nexiyo**.
 
 ## License (MIT License)
 **Copyright 2017 Alexis Queen.**
