@@ -12,13 +12,13 @@ Nexiyo is my experiment at building a small framework so I could learn more abou
 
 ### To do (hopefully)
  - Improve error handling in core
- - Migrate Twig to 2.0
+ - Migrate Twig to 3.0
  - Provide defaults for dotenv when unset
  - Add DB migration capabilities
 
 ## Installing
 ### Requirements
- - PHP 5.6 or above (7.x series highly recommended)
+ - PHP 7 or above (8.x series highly recommended)
  - Either Apache with **mod_rewrite** or Nginx
  - MySQL or MariaDB (other databases theoretically supported however I haven't dealt with them)
 
